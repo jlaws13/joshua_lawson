@@ -1,6 +1,7 @@
 export default function JoshuaLawsonWebsite() {
   const assetBase = import.meta.env.BASE_URL;
-  const profileImage = `${assetBase}images/headshot.jpg`;
+  // const profileImage = `${assetBase}images/headshot.jpg`;
+  const profileImage = `${assetBase}images/walking.jpg`;
   const cvUrl = `${assetBase}files/cv.pdf`;
 
   const researchInterests = [
