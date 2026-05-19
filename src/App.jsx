@@ -119,7 +119,7 @@ export default function JoshuaLawsonWebsite() {
     {
       title: "Service",
       body:
-        "Introduction to Quantitative Portfolio Construction — an 8 week applied mini-seminar covering arbitrage pricing theory and models of the stochastic discount factor, Summer 2026.",
+        "Quantitative Portfolio Construction with Asset Pricing and Python — an 8 week applied mini-seminar covering arbitrage pricing theory and models of the stochastic discount factor, Summer 2026.",
     },
     {
       title: "Software",
@@ -147,7 +147,7 @@ export default function JoshuaLawsonWebsite() {
       </header>
 
       <main id="top" className="mx-auto max-w-6xl px-6 py-10 md:py-16">
-        <section className="grid gap-10 md:grid-cols-[1.2fr_0.8fr] md:items-start">
+        <section id="about" className="grid scroll-mt-24 gap-10 md:grid-cols-[1.2fr_0.8fr] md:items-start">
           <div>
             <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-slate-500">
               Ph.D. Candidate in Finance · 2026–2027 Job Market
@@ -161,9 +161,10 @@ export default function JoshuaLawsonWebsite() {
               microstructure, portfolio choice, and machine learning in finance.
             </p>
             <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-              I will be on the 2026–2027 academic job market. My current work focuses
-              especially on the price impact of retail demand and the equilibrium role of
-              investor heterogeneity in financial markets.
+              A central theme of my research is the equilibrium price impact of heterogeneous investors. I
+              study how variation in investor preferences and arbitrage intensity affects price formation
+              and market efficiency. I also work on topics related to machine learning in finance and
+              long-run decision making under uncertainty.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -229,31 +230,6 @@ export default function JoshuaLawsonWebsite() {
                 <p className="font-medium text-slate-900">References</p>
                 <p>Available upon request</p>
               </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="about" className="mt-20 scroll-mt-24">
-          <div className="max-w-4xl">
-            <h2 className="text-2xl font-semibold tracking-tight text-slate-950 md:text-3xl">
-              About
-            </h2>
-            <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
-              <p>
-                I am a finance Ph.D. candidate whose work studies how heterogeneous
-                investors shape equilibrium outcomes in asset markets. My research draws on
-                empirical asset pricing, market microstructure, and quantitative methods to
-                better understand price formation, trading behavior, and portfolio choice.
-              </p>
-              <p>
-                A central theme of my research is the equilibrium role of retail demand. I
-                study how variation in investor composition and institutional inelasticity
-                affects the cross-section of price impact and market efficiency.
-              </p>
-              <p>
-                I also work on topics related to arbitrage frictions, dual-class equity, and
-                the foundations of long-run decision making under uncertainty.
-              </p>
             </div>
           </div>
         </section>
