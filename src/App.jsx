@@ -379,7 +379,7 @@ export default function JoshuaLawsonWebsite() {
               <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
                 <h2 className="text-2xl font-semibold tracking-tight text-slate-950">Presentations</h2>
                 <ul className="mt-6 space-y-3 text-sm leading-7 text-slate-700">
-                  {presentations.map((item) => (
+                  {conferences.map((item) => (
                     <li key={item} className="rounded-2xl border border-slate-100 px-4 py-3">
                       {item}
                     </li>
