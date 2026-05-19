@@ -1,4 +1,8 @@
 export default function JoshuaLawsonWebsite() {
+  const assetBase = import.meta.env.BASE_URL;
+  const profileImage = `${assetBase}images/headshot.jpg`;
+  const cvUrl = `${assetBase}files/cv.pdf`;
+
   const researchInterests = [
     "Asset Pricing",
     "Price Impact of Retail Demand",
@@ -57,7 +61,7 @@ export default function JoshuaLawsonWebsite() {
       title: "The Equilibrium Price Impact of Retail Demand",
       subtitle: "Job Market Paper",
       description:
-        "Studies how retail demand affects equilibrium prices, with a focus on ownership structure, institutional inelasticity, and the cross-section of price impact.",
+        "Studies how retail demand affects equilibrium prices, with a focus on ownership structure, institutional inelasticity, and cross-sectional price impact.",
     },
     {
       title: "Arbitrage Thresholds and Price Discovery in Dual-Class Equity",
@@ -98,11 +102,12 @@ export default function JoshuaLawsonWebsite() {
     },
   ];
 
-  const presentations = [
-    "Brown Bag Seminar, University of Rochester (2022, 2023, 2024)",
-    "Brown Bag Seminar, University of Tennessee (2024, 2026)",
-    "Santa Fe Institute, Spring 2024",
-    "London Mathematical Laboratory, Fall 2024",
+  const conferences = [
+    "Western Finanance Associate, Annual Meeting 2026, attended",
+    "Brown Bag Seminar, University of Rochester (2022, 2023, 2024), presented",
+    "Brown Bag Seminar, University of Tennessee (2024, 2026), presented",
+    "Santa Fe Institute, Spring 2024, attended",
+    "London Mathematical Laboratory, Fall 2024, attended",
   ];
 
   const extras = [
@@ -176,7 +181,9 @@ export default function JoshuaLawsonWebsite() {
                 Email
               </a>
               <a
-                href="#"
+                href={cvUrl}
+                target="_blank"
+                rel="noreferrer"
                 className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-medium text-slate-800 transition hover:-translate-y-0.5"
               >
                 CV PDF
@@ -185,8 +192,16 @@ export default function JoshuaLawsonWebsite() {
           </div>
 
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
-            <div className="flex items-center gap-4">
-              <div className="flex h-20 w-20 items-center justify-center rounded-full bg-slate-900 text-2xl font-semibold text-white">
+            <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-100">
+              <img
+                src={profileImage}
+                alt="Joshua Lawson"
+                className="aspect-[4/5] w-full object-cover"
+              />
+            </div>
+
+            <div className="mt-6 flex items-center gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-slate-900 text-base font-semibold text-white">
                 JL
               </div>
               <div>
@@ -412,7 +427,9 @@ export default function JoshuaLawsonWebsite() {
                 Google Scholar
               </a>
               <a
-                href="#"
+                href={cvUrl}
+                target="_blank"
+                rel="noreferrer"
                 className="rounded-2xl border border-white/30 px-5 py-3 text-sm font-medium text-white transition hover:-translate-y-0.5"
               >
                 CV PDF
