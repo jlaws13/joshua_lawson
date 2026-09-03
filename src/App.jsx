@@ -6,7 +6,7 @@ export default function JoshuaLawsonWebsite() {
 
   const researchInterests = [
     "Asset Pricing",
-    "Price Impact of Retail Demand",
+    "Price Impact",
     "Portfolio Choice",
     "Empirical Market Microstructure",
     "Machine Learning in Finance",
