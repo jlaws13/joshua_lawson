@@ -410,7 +410,7 @@ export default function JoshuaLawsonWebsite() {
                 rel="noreferrer"
                 className="rounded-2xl border border-white/30 px-5 py-3 text-sm font-medium text-white transition hover:-translate-y-0.5"
               >
-                CV PDF
+                CV
               </a>
             </div>
           </div>
