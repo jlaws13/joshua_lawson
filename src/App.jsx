@@ -189,9 +189,25 @@ export default function JoshuaLawsonWebsite() {
                 rel="noreferrer"
                 className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-sm font-medium text-slate-800 transition hover:-translate-y-0.5"
               >
-                CV PDF
+                CV
               </a>
             </div>
+
+            <section id="research" className="mt-12 scroll-mt-24">
+              <h2 className="text-2xl font-semibold tracking-tight text-slate-950 md:text-3xl">
+                Research interests
+              </h2>
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {researchInterests.map((item) => (
+                  <div
+                    key={item}
+                    className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm"
+                  >
+                    <p className="text-base font-medium text-slate-900">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
           </div>
 
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
@@ -232,22 +248,6 @@ export default function JoshuaLawsonWebsite() {
                 <p>Available upon request</p>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section id="research" className="mt-20 scroll-mt-24">
-          <h2 className="text-2xl font-semibold tracking-tight text-slate-950 md:text-3xl">
-            Research interests
-          </h2>
-          <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-            {researchInterests.map((item) => (
-              <div
-                key={item}
-                className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm"
-              >
-                <p className="text-base font-medium text-slate-900">{item}</p>
-              </div>
-            ))}
           </div>
         </section>
 
