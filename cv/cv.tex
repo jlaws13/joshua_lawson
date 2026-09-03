@@ -1,0 +1,140 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.68in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+\definecolor{accent}{HTML}{FF7200}
+\definecolor{dategray}{HTML}{666666}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=1.2em,labelsep=0.45em,itemsep=0.5pt,topsep=1.5pt,parsep=0pt,partopsep=0pt}
+
+\newcommand{\cvsection}[1]{%
+  \vspace{7pt}%
+  {\large\color{accent}#1}\par
+  \vspace{-2pt}%
+  {\color{accent}\hrule height 0.5pt}%
+  \vspace{3pt}%
+}
+
+\newcommand{\datedentry}[2]{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+    \textbf{#1} & {\color{dategray}#2}
+  \end{tabular*}\par
+}
+
+\begin{document}
+
+{\fontsize{24}{27}\selectfont\textbf{Joshua Lawson}}\par
+{\large Ph.D. Candidate}\par
+{\large Department of Finance, University of Tennessee, Knoxville}\par
+\vspace{2pt}
+\href{mailto:cnm188@vols.utk.edu}{cnm188@vols.utk.edu}
+\quad $|$ \quad
+\href{https://scholar.google.com/citations?user=wVeYQeAAAAAJ\&hl=en}{Google Scholar}
+\quad $|$ \quad
+\href{https://www.researchgate.net/profile/Joshua-Lawson-3}{ResearchGate}
+\quad $|$ \quad
+\href{https://jlaws13.github.io/personal_website/}{Personal Website}
+
+\cvsection{Research Interests}
+Asset pricing; price impact of retail demand; portfolio choice; empirical market microstructure; machine learning in finance.
+
+\cvsection{Education}
+\datedentry{Ph.D. in Finance}{Aug. 2024--May 2027}
+University of Tennessee, Knoxville\par
+Department of Finance. Expected completion: May 2027.\par
+\vspace{3pt}
+
+\datedentry{Graduate Study in Finance}{Aug. 2021--May 2024}
+University of Rochester\par
+Simon Business School.\par
+\vspace{3pt}
+
+\datedentry{M.S. in Mathematics, Applied Track}{May 2021}
+SUNY--Buffalo\par
+GPA: 3.6/4.0. Relevant coursework: Numerical Analysis I/II, Methods of Applied Mathematics I/II, Stochastic Processes, Real Analysis, Measure Theory, Nonlinear Dynamics.\par
+\vspace{3pt}
+
+\datedentry{M.S. in Quantitative Finance}{Dec. 2020}
+SUNY--Buffalo\par
+GPA: 4.0/4.0. Relevant coursework: Quantitative Methods for Finance, Portfolio Theory, Financial Modeling in R.
+
+\cvsection{Publications}
+\begin{itemize}
+  \item Md Rafayet Alam, Md Abdur Rahman Forhad, Mohammed Syedul Islam, and Joshua Lawson. ``Crude Oil Futures Prices and Foreign Exchange Markets.'' \textit{Applied Economics}, 2023.
+  \item Joshua Lawson, Md Rafayet Alam, and Xiaoli L. Etienne. ``Speculation and Food-Grain Commodities.'' \textit{Applied Economics}, 2021.
+\end{itemize}
+
+\cvsection{Working Papers}
+\begin{itemize}
+  \item ``The Equilibrium Price Impact of Household Demand.'' Job market paper.
+  \item ``Arbitrage Thresholds and Price Discovery in Dual-Class Equity.'' Draft available upon request.
+  \item ``Expected Growth and Average Utility: A Microeconomic Axiomatization of Ergodicity Economics.'' Draft available upon request.
+\end{itemize}
+
+\cvsection{Presentations and Seminars}
+\begin{itemize}
+  \item FMA Doctoral Student Consortium, Tampa, FL, Oct. 2026. Selected presenter, ``The Equilibrium Price Impact of Household Demand.''
+  \item Brown Bag Seminar, University of Rochester, 2022, 2023, 2024.
+  \item Brown Bag Seminar, University of Tennessee, 2024, 2026.
+\end{itemize}
+
+\cvsection{Conferences and Workshops}
+\begin{itemize}
+  \item Santa Fe Institute, Spring 2024.
+  \item London Mathematical Laboratory, Fall 2024.
+\end{itemize}
+
+\cvsection{Teaching Experience}
+\datedentry{Investment and Portfolio Management (FINC 425)}{Spring 2026; Fall 2026}
+Instructor, University of Tennessee, Knoxville\par
+\vspace{3pt}
+
+\datedentry{Financial Derivatives (MGF 635)}{Spring 2021}
+Instructor, SUNY--Buffalo\par
+Graduate level.\par
+\vspace{3pt}
+
+\datedentry{Financial Derivatives (MGF 435)}{Spring 2021}
+Instructor, SUNY--Buffalo\par
+Undergraduate level.\par
+\vspace{3pt}
+
+\datedentry{Teaching Assistant and Tutor}{Sep. 2019--Dec. 2020}
+SUNY--Buffalo\par
+Derivative Securities, Corporate Finance, Equity Research, Biostatistics, Calculus I/II/III, Linear Algebra, Probability Theory.
+
+\cvsection{Awards and Honors}
+\begin{itemize}
+  \item Ed Nissan Best Undergraduate Paper Award, 2019.
+\end{itemize}
+
+\cvsection{Service}
+\begin{itemize}
+  \item Quantitative Portfolio Construction with Asset Pricing and Python -- an 8 week applied mini-seminar covering arbitrage pricing theory and models of the stochastic discount factor, Summer 2026.
+\end{itemize}
+
+\cvsection{Software and Computing}
+Mu Hat: A comprehensive Python package that replicates the canon of empirical asset pricing.
+
+\cvsection{References}
+Available upon request.
+
+\vfill
+Last updated: September 3, 2026
+
+\end{document}

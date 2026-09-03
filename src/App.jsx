@@ -59,10 +59,10 @@ export default function JoshuaLawsonWebsite() {
 
   const workingPapers = [
     {
-      title: "The Equilibrium Price Impact of Retail Demand",
+      title: "The Equilibrium Price Impact of Household Demand",
       subtitle: "Job Market Paper",
       description:
-        "Studies how retail demand affects equilibrium prices, with a focus on ownership structure, institutional inelasticity, and cross-sectional price impact.",
+        "Studies how household demand affects equilibrium prices, with a focus on ownership structure, institutional inelasticity, and cross-sectional price impact.",
     },
     {
       title: "Arbitrage Thresholds and Price Discovery in Dual-Class Equity",
@@ -104,7 +104,7 @@ export default function JoshuaLawsonWebsite() {
   ];
 
   const conferences = [
-    "Western Finanance Associate, Annual Meeting 2026, attended",
+    "FMA Doctoral Student Consortium, Tampa, FL (2026), selected presenter: The Equilibrium Price Impact of Household Demand",
     "Brown Bag Seminar, University of Rochester (2022, 2023, 2024), presented",
     "Brown Bag Seminar, University of Tennessee (2024, 2026), presented",
     "Santa Fe Institute, Spring 2024, attended",
