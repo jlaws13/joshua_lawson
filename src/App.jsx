@@ -258,29 +258,12 @@ export default function JoshuaLawsonWebsite() {
                 Research
               </h2>
               <p className="mt-2 text-slate-600">
-                Working papers and publications.
+                Publications and working papers.
               </p>
             </div>
           </div>
 
           <div className="mt-8 grid gap-5">
-            <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
-              <p className="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">
-                Working papers
-              </p>
-              <div className="mt-5 space-y-6">
-                {workingPapers.map((paper) => (
-                  <div key={paper.title} className="border-b border-slate-100 pb-6 last:border-0 last:pb-0">
-                    <div className="flex flex-col gap-2 md:flex-row md:items-baseline md:justify-between">
-                      <h3 className="text-lg font-semibold text-slate-950">{paper.title}</h3>
-                      <p className="text-sm font-medium text-slate-500">{paper.subtitle}</p>
-                    </div>
-                    <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-700">{paper.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <p className="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">
                 Publications
@@ -299,6 +282,23 @@ export default function JoshuaLawsonWebsite() {
                     >
                       View on Google Scholar
                     </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm md:p-8">
+              <p className="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">
+                Working papers
+              </p>
+              <div className="mt-5 space-y-6">
+                {workingPapers.map((paper) => (
+                  <div key={paper.title} className="border-b border-slate-100 pb-6 last:border-0 last:pb-0">
+                    <div className="flex flex-col gap-2 md:flex-row md:items-baseline md:justify-between">
+                      <h3 className="text-lg font-semibold text-slate-950">{paper.title}</h3>
+                      <p className="text-sm font-medium text-slate-500">{paper.subtitle}</p>
+                    </div>
+                    <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-700">{paper.description}</p>
                   </div>
                 ))}
               </div>
