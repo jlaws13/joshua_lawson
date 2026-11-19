@@ -65,7 +65,7 @@ export default function JoshuaLawsonWebsite() {
         "Studies how household demand affects equilibrium prices, with a focus on ownership structure, institutional inelasticity, and cross-sectional price impact.",
     },
     {
-      title: "Arbitrage Thresholds and Price Discovery in Dual-Class Equity",
+      title: "The Intensive and Extensive Margins of Arbitrage",
       subtitle: "Draft available upon request",
       description:
         "Examines the limits of arbitrage and how frictions shape relative pricing and information transmission across dual-class shares.",
