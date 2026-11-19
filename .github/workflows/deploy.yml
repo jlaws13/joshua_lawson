@@ -36,14 +36,14 @@ jobs:
       - name: Install LaTeX for CV
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends texlive-latex-base texlive-latex-recommended texlive-latex-extra lmodern
+          sudo apt-get install -y --no-install-recommends texlive-latex-base texlive-latex-recommended texlive-latex-extra lmodern poppler-utils
 
       - name: Compile CV PDF from current LaTeX source
         run: |
           pdflatex -interaction=nonstopmode -halt-on-error -output-directory=cv cv/cv.tex
           cp cv/cv.pdf public/files/cv.pdf
           pdftotext -layout public/files/cv.pdf cv/cv_extracted.txt
-          python -c 'from pathlib import Path; content=" ".join(Path("cv/cv_extracted.txt").read_text().split()); assert "Equilibrium Price Effects of Household Stock Selection" in content'
+          python -c 'from pathlib import Path; content=" ".join(Path("cv/cv_extracted.txt").read_text().split()); assert "Equilibrium Price Effects of Household Stock Selection" in content; assert "The Intensive and Extensive Margins of Arbitrage" in content'
 
       - name: Build
         run: npm run build
