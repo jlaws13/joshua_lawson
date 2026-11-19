@@ -59,7 +59,7 @@ export default function JoshuaLawsonWebsite() {
 
   const workingPapers = [
     {
-      title: "The Equilibrium Price Impact of Household Demand",
+      title: "Equilibrium Price Effects of Household Stock Selection",
       subtitle: "Job Market Paper",
       description:
         "Studies how household demand affects equilibrium prices, with a focus on ownership structure, institutional inelasticity, and cross-sectional price impact.",
@@ -104,8 +104,8 @@ export default function JoshuaLawsonWebsite() {
   ];
 
   const conferences = [
-    "FMA Doctoral Student Consortium, Tampa, FL (2026), selected presenter: The Equilibrium Price Impact of Household Demand",
-    "FMA Annual Meeting, Tampa, FL (2026), presenter: The Equilibrium Price Impact of Household Demand",
+    "FMA Doctoral Student Consortium, Tampa, FL (2026), selected presenter: Equilibrium Price Effects of Household Stock Selection",
+    "FMA Annual Meeting, Tampa, FL (2026), presenter: Equilibrium Price Effects of Household Stock Selection",
     "Brown Bag Seminar, University of Rochester (2022, 2023, 2024), presented",
     "Brown Bag Seminar, University of Tennessee (2024, 2026), presented",
     "Santa Fe Institute, Spring 2024, attended",
